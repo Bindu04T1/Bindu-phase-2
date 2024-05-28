@@ -1,0 +1,23 @@
+class student:
+  def__init__(self,name,rollnum,maths,java,python,phy,chem):
+   self.name=name
+   self.rollnum=rollnum
+   self.maths=maths
+   self.java=java
+   self.python=python
+   self.phy=phy
+   self.chem=chem
+obj=student("bindu",1,90,85,91,88,95)
+print(obj.name)
+print(obj.rollnum)
+print(obj.maths)
+print(obj.java)
+print(obj.python)
+print(obj.phy)
+print(obj.chem)
+0bj2=student("harshi",12,85,90,91,95,82)
+print(obj2.name)
+print(obj2.rollnum)
+print(obj2.maths)
+print(obj2.java)
+print(obj2.python)
