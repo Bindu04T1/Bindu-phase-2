@@ -26,8 +26,7 @@ def printBFSTraversal(adj, n):
 n, m = map(int, input().split())
 adj = [] 
 for i in range(n):
-    adj.append([])
- 
+    adj.append([])s
 for i in range(m):
     u, v = map(int, input().split())
     adj[u].append(v)
